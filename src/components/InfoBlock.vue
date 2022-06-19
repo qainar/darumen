@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main" id="info">
     <div class="flex justify-between " style="padding-top: 200px">
         <div>
           <img :src="girl">

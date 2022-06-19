@@ -1,7 +1,7 @@
 <template>
-  <q-layout>
+  <q-layout view="lHh Lpr lFf">
     <q-page-container>
-      <q-page>
+      <q-page class="page">
         <router-view></router-view>
       </q-page>
     </q-page-container>
@@ -25,5 +25,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.page{
+  scroll-behavior: smooth;
+}
 </style>

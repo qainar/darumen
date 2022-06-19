@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <div class="delivery">
+    <div class="delivery" id="delivery">
       <h3 class="text-weight-bolder text-center">Бесплатная доставка по Казахстану</h3>
       <div class="flex justify-between items-center">
         <p class="text-weight-light text-h4 text-center" style="width: 550px">

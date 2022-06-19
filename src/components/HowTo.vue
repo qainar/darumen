@@ -1,5 +1,5 @@
 <template>
-  <div class="back">
+  <div class="back" id="howto">
 
     <div class="flex column items-center" style="padding-top: 100px">
       <h4 class="text-weight-bold q-ma-none q-mb-sm">Как это работает</h4>
