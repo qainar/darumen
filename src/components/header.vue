@@ -43,9 +43,9 @@
               <q-btn color="black" label="Подобрать витамины" rounded size="sm"/>
           </li>
           <li class="">
-            <a href="/recommendation">
+            <router-link to="/recommendation">
               <q-icon name="fa-solid fa-circle-user" size="sm"/>
-            </a>
+            </router-link>
           </li>
         </ul>
       </nav>
@@ -65,7 +65,7 @@
           <a href="#" class="menu__item"><q-icon name="fa-brands fa-telegram" rounded size="sm"/></a>
           <a href="#" class="menu__item"><q-icon name="fa-brands fa-instagram-square" rounded size="sm"/></a>
         </li>
-        <li><a href="#" class="menu__item"><q-btn color="orange" label="Пройти опрос" no-caps rounded size="sm"/></a></li>
+        <li><router-link to="#" class="menu__item"><q-btn color="orange" label="Пройти опрос" no-caps rounded size="sm"/></router-link></li>
       </ul>
     </div>
   </div>
@@ -134,7 +134,7 @@ a:hover{
     display: flex;
     align-items: center;
     position: fixed;
-    top: 20px;
+    top: 15px;
     left: 20px;
 
     width: 26px;
