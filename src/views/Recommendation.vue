@@ -91,9 +91,9 @@
               <span class="text-weight-bold">{{allCount}}  <q-icon name="fa-solid fa-ruble-sign" size="15px"/></span>
             </div>
             <div class="q-mt-xl">
-              <a href="/order" style="text-decoration: none; color: black">
+              <router-link to="/order" style="text-decoration: none; color: black">
                 <q-btn label="Оформить" no-caps style="background: #E88F6D;border-radius: 40px;" class="float-right"/>
-              </a>
+              </router-link>
 
             </div>
           </div>

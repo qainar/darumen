@@ -53,6 +53,7 @@
 
     <div class="hamburger_menu">
       <input id="menu__toggle" type="checkbox"/>
+
       <label class="menu__btn" for="menu__toggle"><span></span></label>
 
       <ul class="menu__box" style="list-style-type: none">
@@ -133,10 +134,10 @@ a:hover{
   .menu__btn {
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 15px;
+    position: absolute;
+    float: right;
+    top: 20px;
     left: 20px;
-
     width: 26px;
     height: 26px;
 
