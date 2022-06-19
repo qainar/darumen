@@ -90,6 +90,9 @@ export default {
   padding: 0 310px  0 310px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
+.hamburger_menu{
+  display: none;
+}
 a{
   text-decoration: none;
 }
@@ -101,6 +104,9 @@ a:hover{
 }
 
 @media  (max-width: 479px){
+  .hamburger_menu{
+    display: flex;
+  }
   .head_first, .head_second{
     overflow: hidden;
   }
